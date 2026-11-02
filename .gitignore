@@ -1,0 +1,28 @@
+# Локальная конфигурация и секреты
+.env
+.env.*
+!.env.example
+.clasp.json
+.clasprc.json
+credentials*.json
+token*.json
+
+# Журналы
+*.log
+logs/
+
+# Резервные копии и приватные данные
+backups/
+private/
+secrets/
+
+# Зависимости
+node_modules/
+
+# Файлы операционной системы
+.DS_Store
+Thumbs.db
+
+# Настройки редакторов
+.vscode/
+.idea/
